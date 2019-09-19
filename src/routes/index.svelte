@@ -30,6 +30,7 @@
 			font-size: 4em;
 		}
 	}
+	.svelte-style { @apply shadow-2xl text-center rounded-full; }
 </style>
 
 <svelte:head>
@@ -37,6 +38,7 @@
 </svelte:head>
 
 <h1>Great success!</h1>
+<div class="bg-from-utils-css svelte-style p-5 text-white">Tailwind</div>
 
 <figure>
 	<img alt='Borat' src='great-success.png'>
